@@ -214,16 +214,22 @@ footer select{
     margin: 5px 0px;
 }
 @media only screen and (max-width: 600px) {
-    button,input{
-        font-size: smaller;
+    .classic,.scientific{
+        font-size: 3vw;
+    }
+    button,input,#classic input{
+        padding: 8px;
+        font-size: 2vw;
+        min-height: auto;
         font-weight: bolder;
     }
     button{
         width: 40px;
     }
     #classic button{
-        font-size: 20px;
-        width: 70px;
+        font-size: 2vw;
+        width: 40px;
+        height: 40px;
     }
     .equal{
         width: 80px;
@@ -243,5 +249,16 @@ footer select{
     }
     footer li{
         white-space: wrap;
+    }
+}
+@media only screen and (max-width: 350px) {
+    button{
+        padding: 1.5px;
+        font-size: 2vw;
+        width: 10vw;
+        height: 10vw;
+    }
+    .equal{
+        width: 20vw;
     }
 }
