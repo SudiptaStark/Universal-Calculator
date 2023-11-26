@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarkLord's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='a'></div>
+    <div class='b'></div>
+    <div class='c'></div>
+
+    <div id="classic">
+
+        <div class="calculator">
+            <div class="toggle">
+                <h2 class="classic" onclick="myFunction()">Classic</h2>
+                <h2 class="scientific" onclick="myFunction2()">Scientific</h2>
+            </div>
+                <input type="text" id="inputBox1" placeholder="" />
+                <input type="text" id="resultBox1" placeholder="0" />
+                <div>
+                    <button class="primaryfunctions" value="ce">CE</button><button class="allclear">C</button><button class="primaryfunctions">DEL</button><button class="primaryfunctions">/</button>
+                </div>
+                <div>
+                    <button class="number">7</button><button class="number">8</button><button class="number">9</button><button class="primaryfunctions">*</button>
+                </div>
+                <div>
+                    <button class="number">4</button><button class="number">5</button><button class="number">6</button><button class="primaryfunctions">-</button>
+                </div>
+                <div>
+                    <button class="number">1</button><button class="number">2</button><button class="number">3</button><button class="primaryfunctions">+</button>
+                </div>
+                <div>
+                    <button class="primaryfunctions">.</button><button class="number">00</button><button class="number">0</button><button class="equal">=</button>
+                </div>
+        </div>
+    </div>
+
+    <div id="scientific">
+
+        <div class="calculator">
+            <div class="toggle">
+                <h2 class="classic" onclick="myFunction()">Classic</h2>
+                <h2 class="scientific" onclick="myFunction2()">Scientific</h2>
+            </div>
+                <input type="text" id="inputBox" placeholder="" />
+                <input type="text" id="resultBox" placeholder="0" />
+                <div>
+                    <button class="primaryfunctions" value="ce">CE</button><button class="allclear">C</button><button class="primaryfunctions">DEL</button><button class="primaryfunctions">/</button><button value="pow"> xʸ</button><button value="square">x²</button><button value="1/x">¹/ₓ</button>
+                </div>
+                <div>
+                    <button class="number">7</button><button class="number">8</button><button class="number">9</button><button class="primaryfunctions">*</button><button value="sin">SIN</button><button value="cos">COS</button><button value="tan">TAN</button>
+                </div>
+                <div>
+                    <button class="number">4</button><button class="number">5</button><button class="number">6</button><button class="primaryfunctions">-</button><button value="cbrt">&#8731;</button><button value="log">log</button><button value="fact">!</button>
+                </div>
+                <div>
+                    <button class="number">1</button><button class="number">2</button><button class="number">3</button><button class="primaryfunctions">+</button><button value="percent">%</button><button value="pi">&pi;</button><button value = 'e'>e</button>
+                </div>
+                <div>
+                    <button class="primaryfunctions">.</button><button class="number">0</button><button class="equal">=</button><button>(</button><button>)</button><button>&Sqrt;</button>
+                </div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><img src="LOGO_STARKLORD-removebg-preview.png" alt="LOGO"></li>
+            <li> &#169;2023</li>
+            <li>Privacy Policy</li>
+            <li>Community Guideline</li>
+            <li>Copyright Policy</li>
+            <li>Send Feedback</li>
+            <li><select name="Langauge">
+                <option value="English">Langauge</option>
+                <option value="Bengali">ভাষা</option>
+                <option value="HIndi">भाषा</option>
+                <option value="French">langue</option>
+              </select>
+            </li>
+        </ul>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
